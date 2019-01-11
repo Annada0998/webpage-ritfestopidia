@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="main.css" type="text/css" rel="stylesheet"/>
+		<link rel="icon" type="image/gif/png" href="Ramaiah_Institutions_Logo.png">
+        
+    <title>payment portal</title>
+</head>
+<body>
+    
+<div class="checkout-panel">
+  <div class="panel-body">
+      <h1 class="title"><center>PAYMENT</center></h1>
+ 
+      <div class="payment-method">
+      <label for="card" class="method card">
+        <div class="card-logos">
+          <img src="sbi.jpg"/><img src="hdfc.jpg"/>
+        </div>
+ 
+        <div class="radio-input">
+          <input id="card" type="radio" name="payment">
+          Pay with credit card
+        </div>
+      </label>
+ 
+      <label for="paypal" class="method paypal">
+      <img src="icici.jpg"/>
+        <div class="radio-input">
+          <input id="paypal" type="radio" name="payment">
+          Pay with debit card
+        </div>
+      </label>
+    </div>
+ 
+    <div class="input-fields">
+      <div class="column-1">
+        <label for="cardholder">Cardholder's Name</label>
+        <input type="text" id="cardholder" />
+ 
+        <div class="small-inputs">
+          <div>
+            <label for="date">Valid thru</label>
+            <input type="text" id="date" placeholder="MM / YY" />
+          </div>
+ 
+          <div>
+            <label for="verification">CVV / CVC *</label>
+            <input type="password" id="verification"/>
+          </div>
+        </div>
+ 
+      </div>
+      <div class="column-2">
+        <label for="cardnumber">Card Number</label>
+        <input type="password" id="cardnumber"/>
+ 
+        <span class="info">* CVV or CVC is the card security code, unique three digits number on the back of your card.</span>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="panel-footer"><form>
+    <button class="btn back-btn" formaction="file:///C:/Users/Abhigya%20Parashar/Desktop/RIT%20festopedia/web%20designing%20project/HTMLDIYA/count.html">Back</button>
+    &nbsp &nbsp &nbsp &nbsp &nbsp
+	<button class="btn next-btn">Next Step</button>
+	</form>
+  </div>
+ </div>
+</body>
+</html>
